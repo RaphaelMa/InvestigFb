@@ -1,0 +1,14 @@
+Passo a passo para criar uma Skill Usando ASK
+
+1 Passo instale o ask
+2 Passso criar um projeto com ask new, neste mesmo processo você deve 
+	escolher qual linguagem deve ser escolhida e em seguida escolher o estilo do projeto, va pelo mais simple que e o Hello World, definas os nomes da pastas em seguida
+3 Passo configure o seu perfil no ask configure
+
+4 Passo Faça o deploy do seu projeto com ask deploy, provavelmente o seu vai gerar um erro de dependencias de alguns arquivos para rodar
+	Vá até a pasta lambda, e digite esses seguintes comandos
+		-> npm install --save ask-sdk-model@^1.29.0
+		-> npm install --save-dev ask-sdk-local-debug
+	Após isso, de um npm install geral! 
+
+5 Passo saida da pasta da lambda e digite ask run
